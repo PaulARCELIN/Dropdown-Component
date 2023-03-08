@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.Dropdown = Dropdown;
 require("./Dropdown.css");
 var _propTypes = _interopRequireDefault(require("prop-types"));
+var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function Dropdown(_ref) {
   let {
@@ -14,17 +15,17 @@ function Dropdown(_ref) {
     id,
     selection
   } = _ref;
-  return /*#__PURE__*/React.createElement("div", {
+  return /*#__PURE__*/_react.default.createElement("div", {
     className: "dropdown"
-  }, /*#__PURE__*/React.createElement("label", {
+  }, /*#__PURE__*/_react.default.createElement("label", {
     htmlFor: id
-  }, label), /*#__PURE__*/React.createElement("div", {
+  }, label), /*#__PURE__*/_react.default.createElement("div", {
     className: "dropdown-content"
-  }, /*#__PURE__*/React.createElement("select", {
+  }, /*#__PURE__*/_react.default.createElement("select", {
     id: id,
     onChange: e => selection(e.target.value)
   }, list.map(function (e) {
-    return /*#__PURE__*/React.createElement("option", {
+    return /*#__PURE__*/_react.default.createElement("option", {
       key: e
     }, e);
   }))));
