@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 Object.defineProperty(exports, "Dropdown", {
   enumerable: true,
   get: function get() {
-    return _dropdown.Dropdown;
+    return _Dropdown.Dropdown;
   }
 });
-var _dropdown = require("./component/dropdown");
+var _Dropdown = require("./component/Dropdown");
