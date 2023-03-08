@@ -1,11 +1,15 @@
 {
   "name": "dropdown-paul-arcelin",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "keywords": ["react", "components"],
   "author": "Paul Arcelin",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [ "dist", "README.md" ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulARCELIN/dropdown-component.git"
+  },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.16.5",
