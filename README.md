@@ -7,6 +7,7 @@ Install using npm i dropdown-paul-arcelin
 In a React app, use the dropdown component:
 import { Dropdown } from 'dropdown-paul-arcelin'
 
+
 #### Dropdown props
 List Array
 Label 	String
@@ -18,4 +19,6 @@ selection function
 | Label       | String             
 | id          | String             
 | selection   | Function             
-  
+
+
+The 'selection' prop awaits a function to use the value returned by the component
